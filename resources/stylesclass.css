@@ -1,0 +1,62 @@
+
+#namelogo{
+    font-size: 26px;
+    font-family: 'Orbitron', sans-serif;
+}
+#sitesublogo{
+    font-size: 20px;
+    color:#51BCFF;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: normal;
+}
+
+
+.centre {
+       margin-left: 15%;
+       margin-right: 15%;
+       display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+
+}
+img.invalid_social{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: transform .2s;
+    align-self: center;
+}
+img.socialimg {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: transform .2s;
+  align-self: center;
+
+}
+img.socialimg:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+}
+a.selected {
+    color:#51BCFF;
+}
+a.domainli{
+    color:#51BCFF;
+}
+a.domainli:hover{
+    color:#51BCFF;
+    border-bottom:3px solid #51BCFF;
+}
+
+.vidFill {
+  object-fit: fill;
+}
+
+@media (max-width: 800px) {
+    .centre {
+           margin-left: 0%;
+           margin-right: 0%;
+    }
+}
