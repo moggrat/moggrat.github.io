@@ -8,27 +8,47 @@
   <meta name="description" content="I'm Luke a CompSci Student and Hobby Gamedev.">
   <meta name="author" content="Luke R scott">
 
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   
   <style>
     
     body 
 	{
-		background-color: white;
-		font-family: "Lucida Console", Courier, monospace;
+		background-color: black;
+		font-family: 'Press Start 2P', cursive;
 		font-smooth: never;
-		color: black;
+		color: white;
 		margin-left: 2.5%;
 	}
-    p{color: black;}
-	a{color: blue;}
+    p{color: white;}
+	a{color: lime;}
 
+	@keyframes newLine 
+	{
+		0%   { opacity:1; }
+		50%  { opacity:0; }
+		100% { opacity:1; }
+	}
+	.twitter 
+	{
+		color: cyan;
+	}
+	.newLine 
+	{
+		font-size: 28px;
+		animation: newLine .5s infinite;
+	}
+	.full 
+	{
+		color: red;
+	}
   </style>
   
 </head>
 
 <body>
-  <a href="https://moggrat.com/terminal">Terminal view</a>
- 	
+  <a href="https://moggrat.com/">Simple view</a>
+ 
   <h1>Luke Scott | Moggrat.com</h1>
   <p>I'm Luke a CompSci Student and Hobby Gamedev.</p>
   <a class="twitter" href="https://twitter.com/moggrat">@moggrat</a>
