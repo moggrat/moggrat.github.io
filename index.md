@@ -4,4 +4,4 @@
 
 layout: home
 ---
-<h2><a href="https://twitter.com/moggrat">Twitter: @Moggrat</a></h2>
+{% include twitterfollow.html %}
