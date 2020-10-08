@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects & Games
+title: Project
 permalink: /projects/
 ---
 These are the projects that are still publicly available:
