@@ -6,6 +6,7 @@ permalink: /projects/
 # My Public Projects
 
 - [Rocsoc.org](https://rocsoc.org/) This is the website for the Lancaster University Rock and Metal society.
+- [Civilization VI Shuffle & Randomization](https://civvisr.moggrat.com/) This is a web tool to help randomize settings in civilization VI games.
 - [Hazardman](https://moggrat.itch.io/hazardman)
 This was my entry into the ANYTHING GOES JAM (game jam). I joined the jam late, but I was able to create a rough prototype in those two days.
 
