@@ -16,6 +16,6 @@ I’ve helped organise gigs in the past as the President of Lancaster University
 - [Twitter](https://twitter.com/moggrat)
 - [Itch.io Games](https://moggrat.itch.io/)
 - [Github](https://github.com/moggrat)
-- [Email](luke@moggrat.com)
+- [Email](mailto:luke@moggrat.com)
 
 # [Projects](../projects)
