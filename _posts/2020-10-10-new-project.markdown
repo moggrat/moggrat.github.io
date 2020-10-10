@@ -13,4 +13,4 @@ Not too long ago I was playing a game of CIV VI with a friend; while setting up 
 
 Another issue I encountered was when playing a TSL earth game. I wanted to have randomized AI civilizations, however Europe becomes easily too busy and the Americas can be too empty. This resulted in the creation of the "Regional Civilization Randomizer". Certain civilizations are spread across multiple continents, and so I decided to use starting regions instead. Some civilizations are classified as in Eurasia and will randomly be added to either Europe or Asia.
 
-
+(Additionally, THIS website has also received dark mode support.)
