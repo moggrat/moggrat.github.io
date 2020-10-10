@@ -17,4 +17,4 @@ This was my entry into the ANYTHING GOES JAM (game jam). I joined the jam late, 
 - Second Year Group Project. Using an old Java API we created a 3 level shoot 'em up space game. This game supported 2 players (on one keyboard).
 - College Project. I created a simple rogue-like prototype using monogame.
 - WordPress site for Shepley Engineers. I alongside a few others created a website for Shepley Engineers that is no longer publicly available (while at College).
-- LNSA. This was a simple application meant to display the output of the command "ipconfig" in a visually pleasant manor.
+- LNSA. This was a simple application meant to display the output of the command "ipconfig" in a visually pleasant manner.
