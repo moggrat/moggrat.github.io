@@ -4,4 +4,7 @@
 
 layout: home
 ---
+# Hello 👋 
+I’m Luke Scott a computer science student from NW England, and I build all sorts of programs, websites and video games. [Read More](/about)
+
 {% include twitterfollow.html %}
