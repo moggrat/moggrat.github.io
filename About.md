@@ -14,6 +14,7 @@ Alongside playing video games I like going on walks and going to rock and metal 
 - [Twitter](https://twitter.com/moggrat)
 - [Itch.io Games](https://moggrat.itch.io/)
 - [Github](https://github.com/moggrat)
+- [Twitch](https://twitch.tv/moggrat)
 - [Email](mailto:luke@moggrat.com)
 
 # [Projects](../projects)
