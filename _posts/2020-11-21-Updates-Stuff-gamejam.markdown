@@ -5,8 +5,6 @@ date:   2020-11-21 14:30:00 +0100
 categories: blog
 ---
 
-##Stuff and Gamejam
-
 Since the last update on my blog I now official have a BSc Hons Computer Science degree. I'm still very busy though (😉). 
 This post is to give an idea of stuff I'm working on at the moment. 
 
