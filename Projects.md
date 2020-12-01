@@ -9,7 +9,8 @@ permalink: /projects/
 - [Civilization VI Shuffle & Randomization](https://civvisr.moggrat.com/) This is a web tool to help randomize settings in civilization VI games.
 - [Hazardman](https://moggrat.itch.io/hazardman)
 This was my entry into the ANYTHING GOES JAM (game jam). I joined the jam late, but I was able to create a rough prototype in those two days.
-
+- [MOON MISS SHOT](https://moggrat.itch.io/moon-miss-shot)
+This was my entry into the GitHub Game Off 2020 game jam. The theme was MOONSHOT. This theme alongside other inspirations resulted in me developing a gravity system and the game around this system. 
 
 # Other Stuff I've worked on
 
