@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hello 👋 
+Hello 👋
 I’m Luke Scott a computer science graduate from NW England, and I build all sorts of programs, websites and video games. I’ve studied computer science at Lancaster University, and I am interested in software and game programming alongside web development.
 
 During my studies I’ve worked on other projects and used a variety of technologies including: Java, C#, HTML, CSS, JS, paintdotnet/gmic, WordPress, Python, Git, Flexbox, Jekyll and Unity.
@@ -18,3 +18,4 @@ Alongside playing video games I like going on walks and going to rock and metal 
 - [Email](mailto:luke@moggrat.com)
 
 # [Projects](../projects)
+# [Games](../games)
