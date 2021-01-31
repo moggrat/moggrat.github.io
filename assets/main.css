@@ -1,0 +1,120 @@
+html, body
+{
+    margin: 0px;
+    background-color: #1F1F1F;
+}
+p, h1, h2, a, span
+{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+p
+{
+    font-size: 18px;
+
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.wrapper
+{
+    max-width: calc(1200px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.header-title > a
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 18px;
+
+}
+.main-nav
+{
+    position: absolute;
+    bottom: 12px;
+    right: 60px;
+}
+.main-nav a
+{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 800;
+    padding-right: 18px;
+    -webkit-text-stroke: 2px black;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+}
+.main-nav a:hover
+{
+    font-size: 27px;
+    text-decoration: none;
+
+}
+
+.header-banner
+{
+    position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      background-position: bottom;
+      border-top: 3px solid;
+      border-bottom: 3px solid;
+}
+.header-banner.index
+{
+      background-image: url("banner.jpg");
+}
+.header-banner.projects
+{
+      background-image: url("webbanner.jpg");
+      background-position: left;
+
+}
+.header-banner.games
+{
+      background-image: url("gamesbanner.jpg");
+      background-position: top;
+
+}
+.content .wrapper
+{
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    background-color: #2D2D2D;
+}
+.content a
+{
+    color: yellow;
+}
+.content li
+{
+    color: white;
+    padding-bottom: 10px;
+}
+.footer
+{
+    border-top: 3px solid;
+    color: black;
+}
+.footer p
+{
+    text-align: center;
+    color: #2D2D2D
+}
