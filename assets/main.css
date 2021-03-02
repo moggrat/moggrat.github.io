@@ -1,7 +1,7 @@
 html, body
 {
     margin: 0px;
-    background-color: #1F1F1F;
+    background-color: #000000;
 }
 p, h1, h2, a, span
 {
@@ -15,7 +15,7 @@ h1
 }
 p
 {
-    font-size: 18px;
+    font-size: 22px;
 
 }
 a:hover
@@ -45,6 +45,7 @@ a:hover
     position: absolute;
     bottom: 12px;
     right: 60px;
+    text-align: right;
 
 }
 .main-nav a
@@ -91,16 +92,22 @@ a:hover
       background-position: top;
 
 }
+.content
+{
+    background-color: #0F0F0F;
+}
 .content .wrapper
 {
-    font-size: 18px;
-    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    font-family: "Times New Roman", Times, serif;
 
     padding-top: 16px;
     padding-bottom: 16px;
-
 }
-
+.content h1
+{
+    font-family: 'Metal Mania', cursive;
+}
 .content a
 {
     color: yellow;
@@ -117,5 +124,11 @@ a:hover
 }
 .footer p
 {
+    margin-top: 8px;
     text-align: center;
+    font-family: 'Metal Mania', cursive;
+}
+#flink
+{
+    font-size: 38px;
 }
