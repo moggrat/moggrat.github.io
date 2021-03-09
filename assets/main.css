@@ -96,7 +96,9 @@ a:hover
 }
 .content
 {
-    background-color: #0F0F0F;
+    background-color: #000000;
+    border-bottom: 3px solid #ffffff;
+
 }
 .content .wrapper
 {
@@ -112,13 +114,18 @@ a:hover
 }
 .content a
 {
-    color: yellow;
+    color: #ffffff;
+    text-decoration: underline;
 }
 .content li
 {
-    color: white;
+    color: #ffffff;
     padding-bottom: 10px;
 
+}
+.home a 
+{
+  text-decoration: none;
 }
 .footer
 {
