@@ -146,4 +146,18 @@ a:hover
     {
         font-size: 18px!important;
     }
+    .content .wrapper p
+    {
+        font-size: 18px!important;
+    }
+}
+@media (orientation: portrait) {
+    .content .wrapper
+    {
+        font-size: 18px!important;
+    }
+    .content .wrapper p
+    {
+        font-size: 18px!important;
+    }
 }
