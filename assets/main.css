@@ -15,7 +15,7 @@ a:hover{text-decoration: underline;}
 .main-nav nav div {display: inline;}
 
 .header-banner{position: relative;background-repeat: no-repeat;background-size: cover;height: 400px;background-position: bottom;border-top: 3px solid;}
-.header-banner.index{background-image: url("banner.png");background-position:left}
+.header-banner.index{background-image: url("banner.jpg");background-position:left}
 .header-banner.background{background-image: url("backgroundbanner.jpg");background-position: bottom;}
 .header-banner.projects{background-image: url("webbanner.jpg");background-position: left;}
 .header-banner.games{background-image: url("gamesbanner.jpg");background-position: top;}
