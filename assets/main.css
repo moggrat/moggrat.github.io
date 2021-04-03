@@ -1,163 +1,61 @@
-html, body
-{
-    margin: 0px;
-    background-color: #000000;
-}
-p, h1, h2, a, span
-{
-    color: white;
-    text-decoration: none;
-}
-h1
-{
-    font-weight: 400;
-}
-h2, h3, h4, h5, h6{
-  font-weight: normal;
-}
-p
-{
-    font-size: 22px;
+html {overflow-y: scroll;}
+html, body{margin: 0px;background-color: #000000;    }
+p, h1, h2, h3, a, span{color: white;text-decoration: none;}
+h1{font-weight: 400;}
+h2, h3, h4, h5, h6{font-weight: normal;}
+p{font-size: 22px;}
+a:hover{text-decoration: underline;}
 
-}
-a:hover
-{
-    text-decoration: underline;
-}
-.wrapper
-{
-    max-width: calc(1200px - (30px * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 60px;
-    padding-left: 60px;
-}
-.header-title > a
-{
-    font-family: 'Metal Mania', cursive;
+/*HEADER------------------------------------*/
+.header-title > a{font-family: 'Metal Mania', cursive;text-align: center;text-transform: uppercase;font-style: italic;font-size: 18px;}
 
-    text-align: center;
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 18px;
+.main-nav{position: absolute;bottom: 12px;right: 60px;text-align: right;}
+.main-nav a{font-family: 'Metal Mania', cursive;text-transform: uppercase;font-size: 34px;font-weight: 800;padding-right: 18px;-webkit-text-stroke: 1px black;}
+.main-nav a:hover{font-size: 35px;text-decoration: none;}
+.main-nav nav div {display: inline;}
 
-}
-.main-nav
-{
-    position: absolute;
-    bottom: 12px;
-    right: 60px;
-    text-align: right;
+.header-banner{position: relative;background-repeat: no-repeat;background-size: cover;height: 400px;background-position: bottom;border-top: 3px solid;}
+.header-banner.index{background-image: url("banner.png");background-position:left}
+.header-banner.background{background-image: url("backgroundbanner.jpg");background-position: bottom;}
+.header-banner.projects{background-image: url("webbanner.jpg");background-position: left;}
+.header-banner.games{background-image: url("gamesbanner.jpg");background-position: top;}
 
-}
-.main-nav a
-{
-    font-family: 'Metal Mania', cursive;
-    text-transform: uppercase;
-    font-size: 34px;
-    font-weight: 800;
-    padding-right: 18px;
-    -webkit-text-stroke: 1px black;
+/*WRAPPER-----------------------------------*/
+.wrapper{max-width: calc(1200px - (30px * 2));margin-right: auto;margin-left: auto;margin-bottom: 16px;padding-right: 16px;padding-left: 16px;}
 
+/*CONTENT------------------------------------*/
+.content a, .footer a{opacity: 0.5;}
+.content a:hover, .footer a:hover{opacity: 1;}
+.content{background-color: #000000;border-bottom: 2px solid #738080;}
+.content .wrapper{font-size: 22px;font-family: "Times New Roman", Times, serif;padding-top: 16px;padding-bottom: 12px;border-right: solid 2px #738080;border-left: solid 2px #738080;}
+.content .wrapper{  border-image: linear-gradient(to bottom, #738080, rgba(0, 0, 0, 0)) 1 100%;}
+.content h1{font-family: 'Metal Mania', cursive;margin-top: 6px;}
+.content a{color: #ffffff;text-decoration: underline;}
+.content li{color: #ffffff;padding-bottom: 10px;}
 
-}
-.main-nav a:hover
-{
-    font-size: 35px;
-    text-decoration: none;
+/* .home a{text-decoration: none;} */
 
-}
+.posthead h1{margin-bottom: 0px;}
+.posthead p{margin-top: 6px;margin-bottom: 32px; font-size: 18px;}
+.postcontrol a {font-size: 32px; margin-top: 32px;}
+/*FOOTER------------------------------------*/
+.footer{color: black;}
+.footer p{margin-top: 8px;text-align: center;font-family: 'Metal Mania', cursive;}
+#flink{font-size: 38px;}
 
-.header-banner
-{
-    position: relative;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 400px;
-      background-position: bottom;
-      border-top: 3px solid;
-      border-bottom: 3px solid;
-}
-.header-banner.index
-{
-      background-image: url("banner.jpg");
-}
-.header-banner.projects
-{
-      background-image: url("webbanner.jpg");
-      background-position: left;
+/*MEDIA------------------------------------*/
+@media only screen and (max-width: 700px) {
+    .main-nav{right: 0px;}
+    .main-nav nav div {display: block;}
+    .header-banner.index {background-image: url("banner.png");background-position: -200px
+    }
 
-}
-.header-banner.games
-{
-      background-image: url("gamesbanner.jpg");
-      background-position: top;
-
-}
-.content
-{
-    background-color: #000000;
-    border-bottom: 3px solid #ffffff;
-
-}
-.content .wrapper
-{
-    font-size: 22px;
-    font-family: "Times New Roman", Times, serif;
-
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-.content h1
-{
-    font-family: 'Metal Mania', cursive;
-}
-.content a
-{
-    color: #ffffff;
-    text-decoration: underline;
-}
-.content li
-{
-    color: #ffffff;
-    padding-bottom: 10px;
-
-}
-.home a
-{
-  text-decoration: none;
-}
-.footer
-{
-    color: black;
-}
-.footer p
-{
-    margin-top: 8px;
-    text-align: center;
-    font-family: 'Metal Mania', cursive;
-}
-#flink
-{
-    font-size: 38px;
 }
 @media only screen and (max-width: 1200px) {
-    .content .wrapper
-    {
-        font-size: 18px!important;
-    }
-    .content .wrapper p
-    {
-        font-size: 18px!important;
-    }
+    .content .wrapper{font-size: 18px!important;}
+    .content .wrapper p{font-size: 18px!important;}
 }
 @media (orientation: portrait) {
-    .content .wrapper
-    {
-        font-size: 18px!important;
-    }
-    .content .wrapper p
-    {
-        font-size: 18px!important;
-    }
+    .content .wrapper{font-size: 18px!important;}
+    .content .wrapper p{font-size: 18px!important;}
 }

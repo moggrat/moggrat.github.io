@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0">
+    <channel>
+        <title>Moggrat.com | Blog</title>
+        <link>https://moggrat.com</link>
+        <description>The Blog of Luke The Moggrat. Talking about of my games, projects and the like.</description>
+        <item>
+            <title>New Blog, First Post &amp; Updates</title>
+            <description>
+                Hello reader. I'm Luke a web/game developer from NW England, and this is my blog. The purpose of this blog is for me to
+                talk about the ideas behind my games/projects/updates. Project being tools, websites and just kinda anything. I also
+                want to talk a bit about myself and my thoughts between and/or as part of other updates. I'm still unsure how often this
+                blog will be updated.
+            </description>
+            <link>https://moggrat.com/blog/post/new-blog-and-the-first-post</link>
+            <pubDate>Sat, 03 Apr 2021</pubDate>
+        </item>
+    </channel>
+</rss>  
