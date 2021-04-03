@@ -47,7 +47,7 @@ a:hover{text-decoration: underline;}
 @media only screen and (max-width: 700px) {
     .main-nav{right: 0px;}
     .main-nav nav div {display: block;}
-    .header-banner.index {background-image: url("banner.png");background-position: -200px
+    .header-banner.index {background-image: url("banner.jpg");background-position: -200px
     }
 
 }
