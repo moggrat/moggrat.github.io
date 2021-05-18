@@ -27,12 +27,8 @@ a:hover{text-decoration: underline;}
 .main-nav nav div {display: inline;}
 .main-nav nav #mob-menu {display: none;} 
 
+.header picture img {object-fit: cover; object-position:-150px; width: 100%; height: 300px;}
 
-.header-banner{position: relative;background-repeat: no-repeat;background-size: cover;height: 300px;background-position: bottom;border-top: 3px solid;}
-.header-banner.index{background-image: url("banner.jpg");background-position: -150px;}
-.header-banner.background{background-image: url("backgroundbanner.jpg");background-position: bottom;}
-.header-banner.projects{background-image: url("webbanner.jpg");background-position: left;}
-.header-banner.games{background-image: url("gamesbanner.jpg");background-position: top;}
 
 /*WRAPPER-----------------------------------*/
 .wrapper{max-width: calc(1200px - (30px * 2));margin-right: auto;margin-left: auto;margin-bottom: 16px;padding-right: 16px;padding-left: 16px;}
@@ -71,8 +67,7 @@ a:hover{text-decoration: underline;}
 
 @media only screen and (min-width: 600px) {
 
-    .header-banner{height: 500px;}
-    .header-banner.index {background-image: url("banner.jpg");background-position: -150px;}
+    .header picture img {object-fit: cover; object-position:-150px; width: 100%; height: 500px;}
 
     .content .wrapper{font-size: 22px;}
     .content .wrapper p{font-size: 22px;}
@@ -82,8 +77,9 @@ a:hover{text-decoration: underline;}
 
 @media only screen and (min-width: 1000px) {
 
-    .header-banner{height: 800px;}
-    .header-banner.index {background-image: url("banner.jpg");background-position: 0px;}
+    .header picture img {object-fit: cover; object-position:0; width: 100%; height: 800px;}
+
+
 }
 @media only screen and (max-width: 380px) {
 
