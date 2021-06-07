@@ -2,7 +2,7 @@ html, body {min-height: 100vh; position:relative;padding:0;border:0;margin:0; mi
 * {box-sizing: border-box;}
 
 html {overflow-y: scroll;}
-p, h1, h2, h3, a, span{color: white;text-decoration: none;}
+p, h1, h2, h3, a, span{color: white;}
 h1{font-weight: 400;}
 h2, h3, h4, h5, h6{font-weight: normal;}
 p{font-size: 22px;}
@@ -12,9 +12,9 @@ a:hover{text-decoration: underline;}
 
 /* Mob Side Nav */
 .sidenav {height: 100%;width: 0;position: fixed;z-index: 99;top: 0;left: 0;background-color: #000000;overflow-x: hidden;transition: 0.5s;padding-top: 60px;}
-.sidenav a {font-family: 'Metal Mania', cursive;text-transform: uppercase;font-style: italic;padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;}
+.sidenav a {font-family: 'Metal Mania', cursive;text-transform: uppercase;border-bottom: solid 1px;border-image: linear-gradient(to right, #818181, rgba(0, 0, 0, 0)) 1 0%;font-style: italic;padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;}
 .sidenav a:hover {color: #f1f1f1;}
-.sidenav .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
+.sidenav .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;border-bottom: hidden 0px;}
 .sidenav-back {height: 100%;width: 0;position: fixed;z-index: 90;top: 0;left: 0;background-color: black;overflow-x: hidden;transition: 0.3s;padding-top: 60px;opacity: 0.9;}
 
 /*HEADER------------------------------------*/
@@ -32,12 +32,29 @@ a:hover{text-decoration: underline;}
 
 /*WRAPPER-----------------------------------*/
 .wrapper{max-width: calc(1200px - (30px * 2));margin-right: auto;margin-left: auto;margin-bottom: 16px;padding-right: 16px;padding-left: 16px;}
-
 /*CONTENT------------------------------------*/
 .content{border-bottom: 2px solid #838383;}
 .content .wrapper{font-size: 18px;font-family: "Times New Roman", Times, serif;padding-top: 16px;padding-bottom: 12px;}
 
 .content h1{font-family: 'Metal Mania', cursive;margin-top: 6px;}
+
+.content ul.social-list li{list-style:none;font-size: 28px;text-decoration: none;}
+.content ul.social-list li a{text-decoration: none;}
+
+.content .imageContainer {text-align:center; padding-top: 16px;padding-bottom: 16px;font-size: 22px;font-family: 'Metal Mania', cursive;}
+.content .imageContainer div{display: inline-block;margin-left: auto;margin-right: auto;width: 300px;}
+.content .imageContainer a{opacity: 0.7; transition: opacity 0.4s ease-in-out; }
+.content .imageContainer a:hover{opacity: 1; transition: none;}
+.content .imageContainer .imageCard{background-color: white;margin: 20px;}
+.content .imageContainer .imageCard a:hover{color: black; }
+
+.content .imgCircle{border-radius: 50%;}
+.yeartag{display: inline-block;font-size: 16px;vertical-align:bottom;background-color: #838383;font-family: 'Metal Mania', cursive; color: black;padding: 4px;border-radius: 5px;}
+
+.content .wrapper .endlinks{padding-top: 32px;padding-bottom: 32px;}
+
+.content .wrapper .endlinks a{font-family: 'Metal Mania', cursive;background-color: #ffffff;text-decoration:none;color: #000000;padding: 16px;margin-right: 16px;opacity:0.5;transition: 0.3s;}
+.content .wrapper .endlinks a:hover{border-radius: 50%;}
 
 
 .content.black{background-color: #000000;}
@@ -46,7 +63,7 @@ a:hover{text-decoration: underline;}
 .content.black li{color: #ffffff;padding-bottom: 10px;}
 
 .content.grey{background-color: #838383;background-image: url("space.jpg");background-position: center;background-size: cover;}
-.content.grey p, .content.grey h1, .content.grey h2, .content.grey h3, .content.grey a, .content.grey span{color: #000000;/*text-decoration: none;*/}
+.content.grey p, .content.grey h1, .content.grey h2, .content.grey h3, .content.grey a, .content.grey span{color: #000000;/*    text-decoration: none;*/}
 .content.grey a:hover{color: #ffffff;}
 .content.grey li{color: #000000;padding-bottom: 10px;}
 
